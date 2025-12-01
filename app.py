@@ -2,7 +2,8 @@
 Complete Flask Backend for Crop Recognition
 Run this on your server/computer
 """
-
+#pip install flask flask-cors torch torchvision transformers pillow
+#python app.py
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import torch
